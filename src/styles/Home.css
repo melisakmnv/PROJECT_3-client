@@ -1,0 +1,31 @@
+* { 
+    box-sizing: Border-box 
+}
+
+body {
+  background-color: #FBFBFB;
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header {
+  background-color: #fc0;
+}
+
+#content {
+  background-color: yellow;
+}
+
+footer {
+  background-color: #c0f;
+}

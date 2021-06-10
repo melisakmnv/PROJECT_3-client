@@ -1,0 +1,188 @@
+
+hr {
+  width: 15vw;
+  color: rgb(255, 0, 0);
+  margin: 30px auto;
+}
+
+
+
+.One__Card {
+  /* background-color: yellow; */
+  width: 72vw;
+}
+
+.Card__Container {
+  /* border: blue 5px solid; */
+  display: flex;
+  justify-content: center;
+}
+
+
+.Card {
+  border-radius: 50px;
+  /* border: black 1px solid; */
+  width: 61vw;
+  -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 3px 3px 0 rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 3px 3px 0 rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 3px 3px 0 rgba(0, 0, 0, 0.23);
+}
+
+.Head__Card {
+  background-color: #dad1ff;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 70px;
+}
+
+.Head__Card h1, h2{
+  color: white;
+  font-family: 'Jost', sans-serif;
+  font-weight: normal;
+}
+
+
+.Head__Card h1{
+  margin: 0;
+  font-weight: 500;
+}
+
+.Head__Card h2{
+  margin: 0;
+  font-weight: 200;
+}
+
+/* ====================== Les Photos ====================== */
+
+.all-pictures {
+  display: flex;
+  justify-content: center;
+}
+
+.main-picture {
+  width: 192px;
+  height: 199px;
+  object-fit: cover;
+  border-radius: 53px;
+  -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 3px 3px 0 rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 3px 3px 0 rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 3px 3px 0 rgba(0, 0, 0, 0.23);
+}
+
+/* ====================== Le contenu textuel ====================== */
+
+.Content__Container {
+  background-color: white;
+  padding: 20px 5vw;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-family: 'Jost', sans-serif;
+}
+
+.Content__Container div > h4, p {
+  display: inline-block;
+  color: rgb(34, 34, 34);
+  margin: 8px 0;
+}
+
+/* .Content__Container div{
+  margin: 10px 0;
+} */
+
+.Content__Container h4 {
+  font-weight: 500;
+}
+
+.Content__Container p {
+  font-weight: 300;
+}
+
+.card-ideas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-ideas h3 {
+  margin-right : 10px;
+}
+
+.cuisine-icons {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.cuisine-icons img {
+  margin: 5px 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cuisine-icons img:hover {
+  filter: contrast(150%);
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 500px) {
+
+  .cuisine-icons {
+justify-content: center;
+
+  }
+
+  .cuisine-icons img {
+    margin: 5px 10px;
+  }
+}
+
+.cuisine {
+  margin-bottom: 32px;
+}
+
+
+/* ====================== Saveurs et textures ====================== */
+
+.card-tastes h4 {
+  margin: 5px 0;
+}
+
+.card-tastes p {
+  margin: 2px 4px;
+  padding: 2px 9px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-tastes p:hover {
+  filter: contrast(140%);
+  transition: all 0.2s ease-in-out;
+}
+
+
+.parfums p {
+  background-color: rgb(255, 255, 30);
+}
+
+.tastes p {
+  background-color: rgb(255, 179, 79);
+}
+
+.textures p {
+  background-color: rgb(228, 211, 255);
+}
+
+/* ====================== Sources & Liens ====================== */
+
+.card-links a {
+  background-color: aliceblue;
+  margin: 5px 3px;
+  padding: 2px 9px;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
