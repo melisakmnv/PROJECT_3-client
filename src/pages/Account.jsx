@@ -1,14 +1,22 @@
 import React from 'react'
-// import UploadImg from '../components/UploadImg'
 import FormSignin from '../components/Auth/FormSignin'
 import FormSignup from '../components/Auth/FormSignup'
+import '../styles/Account.css'
+
 
 const Account = () => {
     return (
-        <div>
-            <h1>Hello from Account</h1> 
-            {/* <UploadImg /> */}
+        <div className="main-container">
+            <div className="account-container">
+
+            </div>
+
+            <div className="login-bx">
+            </div>
             <FormSignin />
+
+            <div className="signup-box">
+            </div>
             <FormSignup />
         </div>
     )

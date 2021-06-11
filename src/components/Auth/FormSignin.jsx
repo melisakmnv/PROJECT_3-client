@@ -4,9 +4,9 @@ import React, { Component } from 'react'
 class FormSignin extends Component {
 
     state = {
-        username : "",
-        email : "",
-        password : ""
+        username: "",
+        email: "",
+        password: ""
     }
 
     handleChange = event => {
@@ -14,25 +14,24 @@ class FormSignin extends Component {
     }
 
 
-    
+
     render() {
         return (
             <div>
+                <h2>Connexion</h2>
                 <form>
-
-
                     <label htmlFor="email"> Email </label>
-                    <input type="text" name="email"/>
+                    <input type="text" name="email" />
 
 
                     <label htmlFor="password"> Password </label>
-                    <input type="password" name="password"/>
+                    <input type="password" name="password" />
 
 
-                    <button>Submit</button>
-                    
+                    <button>Connexion</button>
+
                 </form>
-                
+
             </div>
         )
     }

@@ -8,6 +8,7 @@ import Recipe from './pages/Recipe';
 import Account from './pages/Account';
 import ShowPlant from './components/Plants/ShowPlant';
 import ShowRecipe from './components/Recipes/ShowRecipe'
+import EditPlant from './components/Plants/EditPlant'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/plants" component={Plant}/>
         <Route exact path= "/plants/:plantId" component={ShowPlant}/>
+        <Route exact path= "/plants/:plantId" component={EditPlant}/>
         <Route exact path="/recipes" component={Recipe}/>
         <Route exact path="/recipes/:recipeId" component={ShowRecipe}/>
         <Route exact path="/account" component={Account}/>

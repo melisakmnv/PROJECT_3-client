@@ -130,15 +130,6 @@ class FormPlant extends Component {
                         onChange={this.handleChange}
 
                     />
-
-
-                    <label htmlFor="image"> Image </label>
-                    <input 
-                        type="file" 
-                        name="image"
-                        id="image"
-                        onChange={event => this.handleFileUpload(event)}/>
-
                     <button>Submit</button>
 
                 </form>

@@ -5,6 +5,7 @@ import '../../styles/Navbar.css'
 const Navbar = () => {
     return (
         <aside>
+            {/* <img className="nav-close" src="http://u.cubeupload.com/Sono/cancel.png" alt="" /> */}
             <ul className="NavBar__List">
                 <li>
                     <NavLink className="NavBar__Item" exact to="/">Home</NavLink>
