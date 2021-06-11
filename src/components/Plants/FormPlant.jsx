@@ -27,7 +27,6 @@ class FormPlant extends Component {
 
 
         axios
-            .post("http://localhost:5555/api/plants")
             .post(process.env.REACT_APP_BACKEND_URL +'/api/plants')
             .then((response) => {
                 console.log(response.data)
