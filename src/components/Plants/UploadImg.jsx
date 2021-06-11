@@ -27,7 +27,7 @@ class UploadImg extends Component {
         const data = new FormData()
         data.append('file', this.state.image)
 
-        axios.post('http://localhost:5000/api/plants', data)
+        axios.post(process.env.REACT_APP_BACKEND_URL +'/api/plants', data)
         .then(res => {
             console.log(res)
         })
