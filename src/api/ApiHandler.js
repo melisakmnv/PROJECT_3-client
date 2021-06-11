@@ -57,6 +57,22 @@ const apiHandler =  {
         .get("api/recipes")
         .then((res) => res.data)
         .catch(errorHandler)
+    },
+
+    //======== post image ========/
+    handleUpload(theFile) {
+
+        console.log('the file : ', theFile)
+        return service
+        .post('/api/plants', theFile)
+        .then((res) => res.data)
+        .catch(errorHandler)
+    }, 
+    saveNewPlant(newPlant) {
+        return service
+        .post('/api/plants/create', newPlant)
+        .then(res => res.data)
+        .catch(errorHandler)
     }
 };
 

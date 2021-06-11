@@ -1,5 +1,5 @@
 import React from 'react'
-import UploadImg from '../components/UploadImg'
+// import UploadImg from '../components/UploadImg'
 import FormSignin from '../components/Auth/FormSignin'
 import FormSignup from '../components/Auth/FormSignup'
 

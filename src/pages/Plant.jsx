@@ -2,6 +2,7 @@ import React from 'react'
 import FormPlant from '../components/Plants/FormPlant'
 import DisplayPlants from '../components/Plants/DisplayPlants'
 import EditPlant from '../components/Plants/EditPlant'
+import UploadImg from '../components/Plants/UploadImg'
 
 const Plant = () => {
     return (
@@ -10,7 +11,9 @@ const Plant = () => {
             <p>This page contains "DisplayPlant" component , a button "Add your Plant" and "FomrPlant" component </p>
 
             <p>There will be cards of plants when we click, it will display only 1 plant</p>
-            {/* <FormPlant /> */}
+            <FormPlant />
+
+            {/* <UploadImg /> */}
 
             <DisplayPlants />
         </div>

@@ -27,6 +27,9 @@ class FormSignin extends Component {
 
                     <label htmlFor="password"> Password </label>
                     <input type="password" name="password"/>
+
+
+                    <button>Submit</button>
                     
                 </form>
                 
