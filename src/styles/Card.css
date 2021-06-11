@@ -40,7 +40,7 @@ hr {
   padding: 10px 70px;
 }
 
-.Head__Card h1, h2{
+.Head__Card{
   color: white;
   font-family: 'Jost', sans-serif;
   font-weight: normal;
@@ -53,6 +53,7 @@ hr {
 }
 
 .Head__Card h2{
+
   margin: 0;
   font-weight: 200;
 }

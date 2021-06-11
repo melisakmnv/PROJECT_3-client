@@ -3,14 +3,12 @@
 .Plant__Card__Box {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black;
   max-width: 72vw;
   justify-content: center;
   padding: 0 0.8vw;
 }
 
 .Plant__Card {
-  border: yellow 2px solid;
   margin: 4vh 2vw;
   height: 216px;
 }
@@ -24,7 +22,7 @@
   height: 201px;
   border-top-left-radius: 52px;
   border-top-right-radius: 52px;
-  /* background-image: url('https://data.whicdn.com/images/88100764/original.jpg'); */
+  background-image: url('https://data.whicdn.com/images/88100764/original.jpg');
   background-size: cover;
   background-position: center;
   /* background: #f5d1bc; */

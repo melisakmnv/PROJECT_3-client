@@ -6,10 +6,8 @@ import EditPlant from '../components/Plants/EditPlant'
 const Plant = () => {
     return (
         <div>
-            <FormPlant />
-
-
             <DisplayPlants />
+            <FormPlant />
         </div>
     )
 }
